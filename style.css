@@ -515,7 +515,7 @@ ul {
   transform: translateY(8rem);
 }
 @media (max-width: 500px) {
-  /* .blurry {
+  .blurry {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -527,5 +527,5 @@ ul {
     min-height: 70vh;
     z-index: 100;
     display: none;
-  } */
+  } 
 }
