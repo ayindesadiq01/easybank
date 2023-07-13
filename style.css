@@ -206,23 +206,17 @@ ul {
  .menu-icon {
   width: 30px;
   height: 20px;
-  transform: rotate(360deg);
-  transition: .5s ease-in-out;
+  transition: transform .5s, width .5s;
  }
  .close-icon {
   width: 30px;
   position: absolute;
   top: -6px;
-  left: -23px;
-  transform: rotate(360deg);
-  transition: 2s ease-in;
+  right: -43px;
   z-index: 100;
  }
  .icon {
   z-index: 1000;
- }
- .cicon {
-  display: none;
  }
  .request-link {
   display: none;

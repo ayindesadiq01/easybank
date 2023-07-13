@@ -1,22 +1,17 @@
 'use strict';
 const menuIcon = document.querySelector('.menu-icon');
 const closeIcon = document.querySelector('.close-icon');
-const c_icon = document.querySelector('.cicon');
 const navBar = document.querySelector('.nav-bar');
 const blurry = document.querySelector('.blurry');
 
 
 menuIcon.addEventListener('click', () => {
- closeIcon.classList.remove('cicon');
- menuIcon.classList.add('cicon');
  navBar.classList.remove('hidden')
- blurry.style.display = 'block';
+ menuIcon.style.display = 'none'
 })
 closeIcon.addEventListener('click', () => {
- menuIcon.classList.remove('cicon');
- closeIcon.classList.add('cicon');
- navBar.classList.add('hidden')
- blurry.style.display = 'none';
+ navBar.classList.add('hidden');
+ menuIcon.style.display = 'block'
 
 })
 
